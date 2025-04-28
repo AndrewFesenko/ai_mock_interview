@@ -10,17 +10,17 @@
   --color-destructive-100: #f75353;
   --color-destructive-200: #c44141;
 
-  --color-primary-100: #dddfff;
-  --color-primary-200: #cac5fe;
+  --color-primary-100: #d8f8d8;
+  --color-primary-200: #a0d9a0;
 
-  --color-light-100: #d6e0ff;
-  --color-light-400: #6870a6;
-  --color-light-600: #4f557d;
-  --color-light-800: #24273a;
+  --color-light-100: #c8e7c8;
+  --color-light-400: #5b8b5b;
+  --color-light-600: #4a694a;
+  --color-light-800: #243424;
 
-  --color-dark-100: #020408;
-  --color-dark-200: #27282f;
-  --color-dark-300: #242633;
+  --color-dark-100: #0B1D0B;
+  --color-dark-200: #0E2F0E;
+  --color-dark-300: #122812;
 
   --font-mona-sans: "Mona Sans", sans-serif;
 
@@ -307,11 +307,11 @@
 }
 
 @utility blue-gradient-dark {
-  @apply bg-gradient-to-b from-[#171532] to-[#08090D];
+  @apply bg-gradient-to-b from-[#0E2F0E] to-[#0B1D0B];
 }
 
 @utility blue-gradient {
-  @apply bg-gradient-to-l from-[#FFFFFF] to-[#CAC5FE];
+  @apply bg-gradient-to-l from-[#D8F8D8] to-[#A0D9A0];
 }
 
 @utility flex-center {
