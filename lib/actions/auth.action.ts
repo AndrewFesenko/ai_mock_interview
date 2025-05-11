@@ -113,3 +113,10 @@ export async function isAuthenticated() {
     const user = await getCurrentUser();
     return !!user;
 }
+
+export async function signOut() {
+    'use server';
+    const cookieStore = await cookies();
+    cookieStore.delete('session');
+    return;
+}
