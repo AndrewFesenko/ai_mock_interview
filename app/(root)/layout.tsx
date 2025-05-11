@@ -9,7 +9,7 @@ import {signOut} from "@/lib/actions/auth.action";
 const RootLayout = async ({ children }: { children : ReactNode}) => {
     const isUserAuthenticated = await isAuthenticated();
 
-    if(!isUserAuthenticated) redirect('/sign-in');
+    if(!isUserAuthenticated) redirect('/landing');
 
     return (
         <div className="root-layout">

@@ -30,7 +30,7 @@ const Feedback = async ({ params }: RouteParams) => {
                     Feedback Summary -{" "}
                     <span className="capitalize text-primary-200">{interview.role}</span> Interview
                 </h1>
-                
+
                 <div className="flex flex-wrap justify-center gap-6">
                     {/* Overall Impression */}
                     <div className="flex items-center gap-2 bg-black/5 dark:bg-white/5 px-4 py-2 rounded-md">
@@ -81,8 +81,8 @@ const Feedback = async ({ params }: RouteParams) => {
                                 <span className="text-primary-200 font-bold">{category.score}/100</span>
                             </div>
                             <div className="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-2">
-                                <div 
-                                    className="bg-primary-200 h-2 rounded-full" 
+                                <div
+                                    className="bg-primary-200 h-2 rounded-full"
                                     style={{ width: `${category.score}%` }}
                                 ></div>
                             </div>

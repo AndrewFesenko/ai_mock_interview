@@ -5,6 +5,7 @@ import Image from "next/image";
 import InterviewCard from "@/components/InterviewCard";
 import {getCurrentUser} from "@/lib/actions/auth.action";
 import {getInterviewsByUserId, getLatestInterviews} from "@/lib/actions/general.action"
+// import { redirect } from "next/navigation";
 
 const Page = async () => {
     const user = await getCurrentUser();

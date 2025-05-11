@@ -136,6 +136,13 @@ const AuthForm = ({ type }: { type: FormType}) => {
                         {!isSignIn ? "Sign in" : "Sign-up"}
                     </Link>
                 </p>
+
+                <p className="text-center text-sm text-light-200 ml-1">
+                    <Link href="/landing" className="text-primary-100">
+                        ← Back to Home
+                    </Link>
+                </p>
+
             </div>
         </div>
     )
