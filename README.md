@@ -78,14 +78,25 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 📸 Screenshot
+## 📸 Screenshots
 
-![Landing](screenshots/landing.png)
-![Sign In](screenshots/sign-in.png)
-![Sign Up](screenshots/sign-up.png)
-![Dashboard](screenshots/dashboard.png)
-![Interview](screenshots/interview.png)
-![Feedback](screenshots/feedback.png)
+### Landing
+![Landing](/screenshots/landing.png)
+
+### Sign In
+![Sign In](/screenshots/sign-in.png)
+
+### Sign Up
+![Sign Up](/screenshots/sign-up.png)
+
+### Dashboard
+![Dashboard](/screenshots/dashboard.png)
+
+### Interview
+![Interview](/screenshots/interview.png)
+
+### Feedback
+![Feedback](/screenshots/feedback.png)
 
 ---
 
