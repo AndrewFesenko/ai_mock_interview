@@ -4,6 +4,12 @@
 
 ---
 
+## 🌐 Live Demo
+
+Check out the live version here: [ai-mock-interview.vercel.app](https://ai-mock-interview-phi-ebon.vercel.app)
+
+---
+
 ## ⚙️ Tech Stack
 
 - **Next.js (App Router)** – frontend & backend  
